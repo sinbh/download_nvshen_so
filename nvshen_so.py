@@ -6,7 +6,7 @@ import sys,os
 from urllib2 import HTTPError
 
 import threading
-
+'''python下载'''
 baseUrl = "http://www.nvshen.so/wp-content/uploads/2015/"
 #baseUrl = "http://www.nvshen.so/wp-content/uploads/2014/"
 basePath ="/tmp/nvshen_so/"
