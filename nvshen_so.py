@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import urllib2
 import sys,os
@@ -8,7 +9,7 @@ import threading
 
 baseUrl = "http://www.nvshen.so/wp-content/uploads/2015/"
 #baseUrl = "http://www.nvshen.so/wp-content/uploads/2014/"
-basePath ="/tmp/vnshen_so/"
+basePath ="/tmp/nvshen_so/"
 threads = []
 
 if(os.path.exists(basePath) == False):
